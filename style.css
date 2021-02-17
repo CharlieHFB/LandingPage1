@@ -1,0 +1,127 @@
+/* * {
+    border: 1px solid red ! important;
+} */
+
+html {
+    background-color: #8D8741;
+}
+
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: rgb(71, 55, 143);
+    background-color: #FBEEC1;
+    opacity: 0.9;
+    display: flex;
+    flex-flow: column wrap;
+    width: 1300px;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+}
+nav {
+    height: 52px;
+    width: 1300px;
+    display: inline-flex;
+    align-items: center;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    top: 12px;
+    background-color: #7E685A;
+    color: seashell;
+}
+nav h4 {
+    margin: 0px 20px;
+    text-decoration: underline;
+}
+nav h3 {
+    margin: 0px 20px;
+    margin-right: 550px;
+    font-family: 'Pacifico', cursive;
+    font-weight: 300;
+    font-size: 30px;
+}
+header {
+    margin-top: 80px;
+    width: 1200px;
+    height: 700px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    text-align: center;
+    background-image: url("./Images/background\ 2.jfif");
+}
+header div {
+    background-color: #FBEEC1;
+    color: rgb(71, 55, 143);
+    opacity: 0.8;
+}
+header h2{
+    margin: 0px 0px;
+}
+header h4 {
+    margin: 0px 0px;
+}
+main {
+    width: 1000px;
+    height: 700px;
+    text-align: center;
+    color: rgb(71, 55, 143);
+}
+main img {
+    height: 200px;
+    margin: 0 5px;
+}
+main h4 {
+    margin: 10px 0;
+}
+.pictures {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+article {
+    height: 500px;
+    width: 1200px;
+    text-align: center;
+    background-image: url("./Images/background.jfif");
+    background-size:cover;
+}
+.addresses {
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+.address {
+    background-color: #daad86c0;
+    margin: 15px 20px;
+    width: 300px;
+}
+article h2 {
+    margin-top: 50px;
+}
+aside {
+    height: 200px;
+    width: 300px;
+    text-align: center;
+    margin-top: 20px;
+    background-color: #daad86c0;
+}
+footer {
+    justify-content: left;
+    text-align: left;
+    width: 100%;
+    margin: 20px 0px;
+    background-color: #7E685A;
+    color: seashell;
+}
+footer h5 {
+    margin-left: 40px;
+}
+
+.form {
+    font-size: 16px;
+    height: 650px;
+    width: 40%;
+    display: block;
+    margin: auto;
+}
